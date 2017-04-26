@@ -15,10 +15,12 @@
     "react-mixin": "2",
     "react-native": "~0.42.0",
     "react-timer-mixin": "^0.13.3",
-    "react-vr": "~1.0.0",
-    "react-vr-web": "~1.0.0",
+    "react-vr": "facebook/react-vr",
+    "react-vr-web": "file:../ReactVR",
     "reactfire": "^1.0.0",
-    "three": "^0.80.1"
+    "three": "^0.80.1",
+    "video.js": "^5.19.2",
+    "videojs-contrib-hls": "^5.4.1"
   },
   "devDependencies": {
     "babel-jest": "^19.0.0",

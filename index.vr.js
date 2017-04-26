@@ -8,6 +8,7 @@ import {
   Text,
   View,
   Box,
+  Video,
   VrHeadModel,
 } from 'react-vr';
 import Viewers from "./viewers";
@@ -52,6 +53,7 @@ export default class WelcomeToVR extends React.Component {
       <View>
         <Scene />
         <Pano source={asset('chess-world.jpg')}/>
+        
         <Viewers viewers={this.state.viewers} />
       </View>
     );
